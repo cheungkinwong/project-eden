@@ -13,6 +13,7 @@ html {
   color: #ececec;
   background: white;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 a {
@@ -237,6 +238,8 @@ nav .nav ul :nth-child(4) {
 .bgvideo-la {
   min-width: 100%;
   min-height: 100%;
+  -webkit-clip-path: rect(0, 0, 20px, 0);
+          clip-path: rect(0, 0, 20px, 0);
 }
 
 header {
@@ -322,7 +325,7 @@ header .logo img {
 }
 
 .eco-parallax {
-  background-image: url("./assets/images/cityplan.jpg");
+  background-image: url("../images/cityplan.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -656,7 +659,7 @@ header .logo img {
 }
 
 .parallax-kris {
-  background-image: url("./assets/images/image2.jpg");
+  background-image: url("../images/image2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -665,7 +668,7 @@ header .logo img {
 }
 
 .parallax2-kris {
-  background-image: url("./assets/images/water.jpg");
+  background-image: url("../images/water.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -674,7 +677,7 @@ header .logo img {
 }
 
 .parallax3-kris {
-  background-image: url("./assets/images/hightech.jpg");
+  background-image: url("../images/hightech.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -801,7 +804,7 @@ header .logo img {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2 / 3;
-  background-image: url("./assets/images/robot-header.jpg");
+  background-image: url("../images/robot-header.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -813,7 +816,7 @@ header .logo img {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
-  background-image: url("./assets/images/img_box-1.jpg");
+  background-image: url("../images/img_box-1.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -865,7 +868,7 @@ header .logo img {
 }
 
 .parallax-aaron {
-  background-image: url("./assets/images/Robotparalax.jpeg");
+  background-image: url("../images/Robotparalax.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
